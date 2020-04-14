@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="919.0" style="-fx-background-color: #e91172;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="omc.com.staff.StaffrecordController">
+   <top>
+      <Label text="NESS STAFF RECORD" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXComboBox fx:id="txtsearch" layoutX="30.0" layoutY="22.0" prefHeight="25.0" prefWidth="184.0" promptText="Select All..." />
+            <JFXButton buttonType="RAISED" layoutX="270.0" layoutY="22.0" onAction="#Search" prefHeight="32.0" prefWidth="110.0" text="Search" />
+            <TableView fx:id="tablestaff" layoutX="14.0" layoutY="80.0" prefHeight="365.0" prefWidth="894.0">
+              <columns>
+                <TableColumn fx:id="colname" prefWidth="215.0" text="NAME" />
+                  <TableColumn fx:id="colstaffid" prefWidth="117.0" text="Staff ID" />
+                <TableColumn fx:id="colpost" minWidth="0.0" prefWidth="107.0" text="POST" />
+                  <TableColumn fx:id="colphone" prefWidth="122.0" text="PHONE NUMBER" />
+                  <TableColumn fx:id="colkinname" prefWidth="169.0" text="NEXT OF KIN" />
+                  <TableColumn fx:id="colkinphone" prefWidth="164.0" text="NEXT OF KIN'S NUMBER" />
+              </columns>
+            </TableView>
+            <JFXButton buttonType="RAISED" layoutX="427.0" layoutY="445.0" onAction="#Print" prefHeight="25.0" prefWidth="92.0" text="PRINT" textFill="#e11d7f">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

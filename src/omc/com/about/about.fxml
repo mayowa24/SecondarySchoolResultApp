@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="599.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="omc.com.about.AboutController">
+   <top>
+      <Label text="AboutThisApp" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="164.0" layoutY="23.0" text="EXCELLENCE GROUP OF SCHOOLS">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="185.0" layoutY="50.0" text="Result Processing System (VERSION 1.0)">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="217.0" layoutY="88.0" text="THIS APP WAS DEVELOPED BY " />
+            <Label layoutX="193.0" layoutY="112.0" text="M_CODE +234 703 791 9786">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Label>
+            <Label layoutX="59.0" layoutY="144.0" text="This App was developed to process the result of the students of Excellence Group of Schools," />
+            <Label layoutX="224.0" layoutY="194.0" text="You can contact us on:" />
+            <Label layoutX="197.0" layoutY="220.0" text="E-mail: mayor0014u@yahoo.com" />
+            <Label layoutX="248.0" layoutY="245.0" text="07037919786" />
+            <Label layoutX="193.0" layoutY="328.0" text="OYELEYE CORNELIUS MAYOWA ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="185.0" layoutY="345.0" text="CEO M_Code GROUP OF DEVELOPERS" />
+            <Label layoutX="228.0" layoutY="166.0" text=" Benin City, Edo State." />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

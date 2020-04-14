@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="omc.com.login.WelcomepgController">
+   <children>
+      <Label layoutX="94.0" layoutY="141.0" text="EXECELLENCE GROUP OF SCHOOLS" textFill="#064295">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="177.0" prefHeight="46.0" prefWidth="348.0" text="RESULT PROCESSING SYSTEM" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="187.0" layoutY="363.0" text="Developed by M_CODE GROUP OF DEVELOPERS" />
+      <Label fx:id="wait" layoutX="140.0" layoutY="295.0" text="Pls wait..." />
+      <ProgressBar fx:id="jprogress1" layoutX="140.0" layoutY="252.0" prefHeight="36.0" prefWidth="321.0" progress="0.0" />
+      <ImageView fitHeight="127.0" fitWidth="122.0" layoutX="242.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
